@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,600;1,600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+    background-color: #393E46;
+    background-image: url("photos/cyber.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-height: auto;
+}
+
+/* Vertical Navigation nar */
+
+nav{
+    background-color: #595959;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #1B1B1B;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+    nav ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    nav li{
+        display: inline;
+    }
+    nav a{
+        text-decoration: none;
+        padding-right: 10px;
+    }
+    nav a:link{
+        color: #000000;
+    }
+    nav a:visited{
+        color: rgb(255, 255, 255);
+    }
+    nav a:hover{
+        color: #440a55;
+    }
+    nav a:active{
+        color: #a04141;
+    }
+
+header{
+    background-color: #393E46;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+
+main{
+    margin: 0px;
+    padding: 30px;
+    color: white;
+}
+
+.logo{
+    margin: 0 auto;
+    display:block;
+    }
+    
+
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    color: white;
+}
+
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+figcaption{
+    color: white;
+}
+
+.jun{
+    background-repeat:no-repeat;
+    float: left;
+    padding-right: 3em;
+    size-adjust: auto;
+}
+.intro{
+    font-size: 20px;
+    padding-left: 3em;
+    padding-bottom: 10em;
+    padding-inline-start: 3em;
+    padding-right: 3em;
+    text-shadow: #595959;
+}
+
+p{
+    padding: 2px;
+    margin: 4px;
+    color: white;
+}
+
+#game{
+    text-align: center;
+}
+
+game-controls{
+    text-align: center;
+}
+
+#pic{
+    float: left;
+    padding-right: 50px;
+}
+
+#resume{
+    margin-right: auto;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px gray;
+    padding: 10px;
+    bottom: 0;
+    width: 100%; 
+    margin: 20px;
+    width: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;  
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+/* CSS for Tablets */
+
+@media only screa and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 1.5em;
+    }
+}
