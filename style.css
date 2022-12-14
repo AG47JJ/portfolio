@@ -121,6 +121,7 @@ game-controls{
 #pic{
     float: left;
     padding-right: 50px;
+    max-width: 1000px;
 }
 
 #resume{
