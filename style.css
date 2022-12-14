@@ -9,6 +9,7 @@ body{
     background-size: cover;
     display: block;
     max-height: auto;
+    width: 100%;
 }
 
 /* Vertical Navigation nar */
@@ -114,15 +115,13 @@ p{
     text-align: center;
 }
 
-game-controls{
+.game-controls{
     text-align: center;
-    float: center;
 }
 
 #pic{
     float: left;
     padding-right: 50px;
-    max-width: 1000px;
 }
 
 #resume{
@@ -137,6 +136,44 @@ footer{
     width: 100%; 
     margin: 20px;
     width: 100%;
+    position: relative;
+}
+
+small{
+    color:#ffffff;
+}
+
+.row{
+    text-align: center;
+    column-count: auto;
+}
+
+.fa{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    padding: 40px 0;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icons .fa {
+    font-size: 5em;
+    color: #ffffff;
+}
+
+.col-sm-3{
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    float: none;
+    margin: 0 auto;
 }
 
 #content-wrap {
