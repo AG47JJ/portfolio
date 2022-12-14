@@ -116,6 +116,7 @@ p{
 
 game-controls{
     text-align: center;
+    float: center;
 }
 
 #pic{
